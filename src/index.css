@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.hoverable {
+  transition: transform 0.2s;
+}
+
+.hoverable:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.roboto {
+  font-family: Roboto sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+a {
+  text-decoration: none !important;
+}
+
+h1 {
+  font-family: "Lobster", cursive;
+  letter-spacing: 0.2rem;
+  font-size: 4rem;
+}
+h2,
+h3 {
+  font-family: "Roboto", sans-serif;
+}
+.myform {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 1.1rem;
+  outline: 0;
+  max-width: 500px;
+  font-family: "Roboto", sans-serif;
+}
+
+input::placeholder {
+  font-style: italic;
+  font-family: "Roboto", sans-serif;
+  opacity: 0.1;
+}
+
+.tx-tfm {
+  text-transform: uppercase;
+}
+
+.login-or {
+  position: relative;
+  color: #aaa;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.span-or {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: -2px;
+  margin-left: -25px;
+  background-color: #fff;
+  width: 50px;
+  text-align: center;
+}
+
+.hr-or {
+  height: 1px;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+form .error {
+  color: #ff0000;
+}
+#second {
+  display: none;
+}
+
+.form-label {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.modal-content {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: none !important;
+}
+
+body.modal-open {
+  width: 100% !important;
+  overflow-y: hidden !important;
+}
+
+.fa-spa {
+  color: #43b834; /* fallback for old browsers */
+  transform: scale(1.4);
+}
+
+.fa-baby {
+  color: #f8d800;
+  transform: scale(1.4);
+}
+
+.fa-map-marked-alt {
+  color: #0396ff;
+  transform: scale(1.4);
+}
+
+.fa-heartbeat {
+  color: salmon;
+  transform: scale(1.4);
+}
+
+.fa-shopping-cart {
+  color:slategray;
+  transform: scale(1.4);
+}
+
+.location-marker {
+  background: none;
+  border: none;
+}
+
+.location-marker img {
+  width: 2.5rem;
+  transform: translate(-63%, 5%);
+}
+
+.cluster-number {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  font-size: medium;
+}
+
+.location-tile {
+  transition: transform .2s;
+}
+
+.location-tile:hover {
+  cursor: pointer;
+  background-color: rgba(179, 212, 252, .1);
+}
+
+.popup-bubble {
+  position: absolute;
+  transform: translateX(100%);
+  z-index: 1000;
+}
+
+.secondary-text {
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  color:rgb(97, 97, 97);
+  font-size: 0.7em;
+}
+
+.primary-text {
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  color:rgb(10, 10, 10);
+  font-size: 0.8em;
+}
+
+@media (max-width: 1140px) {                  
+  .search-bar {
+     display: none;
+  }
+}
