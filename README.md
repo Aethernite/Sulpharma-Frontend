@@ -11,7 +11,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![API Image](https://i.imgur.com/6CdCqo3.png)
+![API Image](https://i.imgur.com/jzvIUTQ.png)
+
+![API Image](https://i.imgur.com/jXtTNKp.png)
+
+![API Image](https://i.imgur.com/7VIZ1XK.png)
 
 Sulpharma is a project that I did for my Bachelor's Degree in Technical University of Sofia. The project is basically an online pharmacy shop providing many features regarding products, price information and promotions. It also shows all the physical pharmacy locations using a map integration.
 
